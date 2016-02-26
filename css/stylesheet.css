@@ -1,0 +1,23 @@
+header{
+  border:1px solid black
+}
+
+.alison{
+  float:left;
+  padding:15px;
+  margin:0 15px
+}
+
+ul{
+  float:right;
+  margin:15px 30px
+}
+
+li{
+	display:inline-block;
+	margin: 0 30px;
+}
+header{
+	position: fixed;
+	width: 100%;
+}
