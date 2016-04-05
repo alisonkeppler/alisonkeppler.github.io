@@ -44,7 +44,7 @@ h5{
 	width:100%;
 	background-size:cover;
 	background: url('../img/colorheadshot.jpg') no-repeat center;
-	background-attachment: fixed; 
+/*	background-attachment: fixed; */
 }
 
 .photo{
