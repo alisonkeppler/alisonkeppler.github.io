@@ -1,0 +1,181 @@
+.image,
+p{
+	text-align: center;
+}
+
+h1,
+h3{
+	color:white;
+}
+
+h1{
+	font-family: 'Fjalla One', sans-serif;
+}
+
+h3{
+	margin-bottom: 20px;
+}
+
+h3,
+h4{
+	font-family: 'Volkhov', serif;
+
+}
+
+h5{
+	font-size:1em;
+	font-family:'Cabin', sans-serif;
+}
+
+.landing{
+	width:50%;
+	margin-left: auto;
+	margin-right:auto;
+	padding-bottom: 20px;
+}
+
+.about{
+	background-color: rgba(8, 221, 248, 0.65);
+	background-attachment: fixed;
+}
+
+.headshot{
+	height:470px;
+	width:100%;
+	background-size:cover;
+	background: url('../img/colorheadshot.jpg') no-repeat center;
+	background-attachment: fixed; 
+}
+
+.photo{
+	padding:0;
+}
+
+.bio p{
+/*	padding: 20px;*/
+	font-size: 1.1em;
+}
+
+#subheads{
+	padding:20px;
+	font-family: 'Volkhov', serif;
+	font-weight:700;
+	font-size:1.5em;
+	color:#424141;
+}
+
+.about p{
+	font-family: 'Cabin', sans-serif;
+	padding-left:30px;
+	padding-right:30px;
+	color:#646262;
+}
+
+.space{
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+.resume{
+	font-weight: 700;
+	font-style: italic;
+}
+
+.portfolio-text {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+	font-size:1.5em;
+	padding-right: .5em;
+	font-family: 'Arimo', sans-serif;
+	color:#424141;
+}
+
+.fade-in {
+	opacity: 0;
+}
+
+.fade-out {
+	opacity: .6;
+}
+
+.portfolio-text.fade-out{
+	opacity:1;
+	font-size: 7em;
+	color:white;
+	font-family:'Fjalla One', sans-serif;
+}
+
+#portfolio a:hover .fade-in {
+	opacity: 1;
+	transition: .45s;
+}
+
+#portfolio a:hover .fade-out {
+	opacity: 0;
+	transition: .45s;
+}
+
+.center{
+	text-align: center;
+}
+
+span{
+	font-family:'Volkhov', sans-serif;
+	color:gray;
+}
+
+.soon{
+	position: absolute;
+	top: 70%;
+	transform: translateY(-50%);
+	width: 100%;
+	font-size:1.2em;
+	padding-right: .5em;
+	font-family: 'Arimo', sans-serif;
+	color:gray;
+	font-style: italic;
+}
+
+}
+
+
+
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list-inline a{
+	color:gray;
+}
+
+
+hr{
+	display: block;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left:auto;
+	margin-right: auto;
+	border-style:inset;
+	border-width: 1px;
+	width:85%;
+}
+
+h4{
+	font-size:1em;
+	font-family:'Arimo', sans-serif;
+	color:#656363;
+/*	font-weight: 700;*/
+}
+
+footer{
+	background-color: rgba(8, 221, 248, 0.46);
+}
+
+p{
+	padding:0;
+}
