@@ -107,6 +107,11 @@ p{
 	font-family: 'Asap', sans-serif;
 }
 
+.scroll{
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
 
 /*.bio{
 	width:80%;
