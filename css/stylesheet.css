@@ -202,7 +202,6 @@ span.description{
 	font-size: .9em;
 }
 
-
 .bio-two{
 	top:45%;
 	font-size:.9em;
@@ -238,6 +237,9 @@ span.description{
 	color:white;
 }*/
 
+p.portfolio-text.fade-out.center.about-titles{
+	font-size:6em;
+}
 
 /*columns section*/
 
