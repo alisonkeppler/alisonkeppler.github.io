@@ -102,22 +102,22 @@ h2{
 	text-align: center;
 }
 
-#portfolio a:hover a:active .fade-in {
+#portfolio a:hover .fade-in {
 	opacity: 1;
 	transition: .45s;
 }
 
-#portfolio a:hover a:active .fade-out {
+#portfolio a:hover .fade-out {
 	opacity: 0;
 	transition: .45s;
 }
 
-#portfolio span.spantest:hover span.spantest:active .fade-in {
+#portfolio span.spantest:hover .fade-in {
 	opacity: 1;
 	transition: .45s;
 }
 
-#portfolio span.spantest:hover span.spantest:active .fade-out {
+#portfolio span.spantest:hover .fade-out {
 	opacity: 0;
 	transition: .45s;
 }
