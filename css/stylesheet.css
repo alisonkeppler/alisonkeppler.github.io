@@ -1,3 +1,7 @@
+body{
+	background-color: black;
+}
+
 .image,
 p{
 	text-align: center;
@@ -8,6 +12,7 @@ p{
 header{
 	padding-top: 150px;
 }
+
 
 h1,
 h3{
@@ -318,29 +323,19 @@ p{
 	padding:0;
 }
 
-/*=======
-header{
-  border:1px solid black
+
+
+/*media queries*/
+
+@media (max-width: 500px){
+	.text-vertical-center h1{
+		font-size:2.5em;
+	}
+	.portfolio-text.fade-out{
+		font-size:5em;
+	}
 }
 
-.alison{
-  float:left;
-  padding:15px;
-  margin:0 15px
-}
 
-ul{
-  float:right;
-  margin:15px 30px
-}
 
-li{
-	display:inline-block;
-	margin: 0 30px;
-}
-header{
-	position: fixed;
-	width: 100%;
->>>>>>> 99c19bb1e389cd23976f429c186c1713f69f545f
-}
-*/
+
