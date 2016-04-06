@@ -174,10 +174,9 @@ span.description{
 	color:white;
 	font-style: italic;
 }
-
-.hidden{
-	display:none;
-}
+ .none{
+ 	visibility:hidden;
+ }
 
 /*#about a:hover .fade-in {
 	opacity: 1;
@@ -347,6 +346,24 @@ p{
 	}
 	.portfolio-text.fade-out{
 		font-size:5em;
+	}
+}
+
+@media (max-width: 720px){
+	.none{
+		visibility:visible;
+	}
+	.soon{
+		top:100%;
+	}
+	.bio-two{
+		top:55%;
+	}
+	.bio-three{
+		top:90%;
+	}
+	.skills-two{
+		top:80%;
 	}
 }
 
