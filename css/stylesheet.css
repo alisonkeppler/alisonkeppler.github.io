@@ -122,12 +122,12 @@ h2{
 	transition: .45s;
 }
 
-#portfolio span.spantest:hover /*span.spantest:focus*/ .fade-in {
+#portfolio span.no-link-hover:hover /*span.spantest:focus*/ .fade-in {
 	opacity: 1;
 	transition: .45s;
 }
 
-#portfolio span.spantest:hover /*span.spantest:focus*/ .fade-out {
+#portfolio span.no-link-hover:hover /*span.spantest:focus*/ .fade-out {
 	opacity: 0;
 	transition: .45s;
 }
@@ -142,12 +142,12 @@ h2{
 	transition: .45s;
 }
 
-#about span.spantest:hover .fade-in {
+#about span.no-link-hover:hover .fade-in {
 	opacity: 1;
 	transition: .45s;
 }
 
-#about span.spantest:hover .fade-out {
+#about span.no-link-hover:hover .fade-out {
 	opacity: 0;
 	transition: .45s;
 }
