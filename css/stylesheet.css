@@ -98,28 +98,28 @@ h2{
 	font-family:'Fjalla One', sans-serif;
 }
 
-#portfolio a:hover .fade-in {
-	opacity: 1;
-	transition: .45s;
-}
-
-#portfolio a:hover .fade-out {
-	opacity: 0;
-	transition: .45s;
-}
-
-#portfolio span.spantest:hover .fade-in {
-	opacity: 1;
-	transition: .45s;
-}
-
-#portfolio span.spantest:hover .fade-out {
-	opacity: 0;
-	transition: .45s;
-}
-
 .center{
 	text-align: center;
+}
+
+#portfolio a:hover a:active .fade-in {
+	opacity: 1;
+	transition: .45s;
+}
+
+#portfolio a:hover a:active .fade-out {
+	opacity: 0;
+	transition: .45s;
+}
+
+#portfolio span.spantest:hover span.spantest:active .fade-in {
+	opacity: 1;
+	transition: .45s;
+}
+
+#portfolio span.spantest:hover span.spantest:active .fade-out {
+	opacity: 0;
+	transition: .45s;
 }
 
 #about a:hover .fade-in {
@@ -336,6 +336,51 @@ p{
 	}
 }
 
+/*@media (max-width: 768px){
+	#portfolio a:hover .fade-in,
 
 
+}
+
+
+#portfolio a:hover .fade-in {
+	opacity: 1;
+	transition: .45s;
+}
+
+#portfolio a:hover .fade-out {
+	opacity: 0;
+	transition: .45s;
+}
+
+#portfolio span.spantest:hover .fade-in {
+	opacity: 1;
+	transition: .45s;
+}
+
+#portfolio span.spantest:hover .fade-out {
+	opacity: 0;
+	transition: .45s;
+}
+
+#about a:hover .fade-in {
+	opacity: 1;
+	transition: .45s;
+}
+
+#about a:hover .fade-out {
+	opacity: 0;
+	transition: .45s;
+}
+
+#about span.spantest:hover .fade-in {
+	opacity: 1;
+	transition: .45s;
+}
+
+#about span.spantest:hover .fade-out {
+	opacity: 0;
+	transition: .45s;
+}
+*/
 
