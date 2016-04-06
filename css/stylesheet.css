@@ -102,22 +102,32 @@ h2{
 	text-align: center;
 }
 
-#portfolio a:hover .fade-in {
+#portfolio a:hover /*a:focus*/ .fade-in {
 	opacity: 1;
 	transition: .45s;
 }
 
-#portfolio a:hover .fade-out {
+.portfolio-hover .fade-in{
+	opacity: 1;
+	transition: .45s;	
+}
+
+#portfolio a:hover /*a:focus*/ .fade-out {
 	opacity: 0;
 	transition: .45s;
 }
 
-#portfolio span.spantest:hover .fade-in {
+.portfolio-hover .fade-out {
+	opacity: 0;
+	transition: .45s;
+}
+
+#portfolio span.spantest:hover /*span.spantest:focus*/ .fade-in {
 	opacity: 1;
 	transition: .45s;
 }
 
-#portfolio span.spantest:hover .fade-out {
+#portfolio span.spantest:hover /*span.spantest:focus*/ .fade-out {
 	opacity: 0;
 	transition: .45s;
 }
@@ -163,6 +173,10 @@ span.description{
 	font-family: 'Arimo', sans-serif;
 	color:white;
 	font-style: italic;
+}
+
+.hidden{
+	display:none;
 }
 
 /*#about a:hover .fade-in {
