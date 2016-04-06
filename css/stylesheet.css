@@ -103,6 +103,16 @@ h2{
 	transition: .45s;
 }
 
+#portfolio span.spantest:hover .fade-in {
+	opacity: 1;
+	transition: .45s;
+}
+
+#portfolio span.spantest:hover .fade-out {
+	opacity: 0;
+	transition: .45s;
+}
+
 .center{
 	text-align: center;
 }
