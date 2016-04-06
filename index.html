@@ -27,6 +27,8 @@
     <link href='https://fonts.googleapis.com/css?family=Arimo:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Volkhov:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Rock+Salt|Over+the+Rainbow' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oranienbaum' rel='stylesheet' type='text/css'>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -51,10 +53,10 @@
                 <a href="#top" onclick = $("#menu-close").click(); >Home</a>
             </li>
             <li>
-                <a href="#about" onclick = $("#menu-close").click(); >About</a>
+                <a href="#portfolio" onclick = $("#menu-close").click(); >Projects</a>
             </li>
             <li>
-                <a href="#portfolio" onclick = $("#menu-close").click(); >Portfolio</a>
+                <a href="#about" onclick = $("#menu-close").click(); >About</a>
             </li>
             <li>
                 <a href="#contact" onclick = $("#menu-close").click(); >Contact</a>
@@ -65,57 +67,52 @@
     <!-- Header -->
     <header id="top" class="header">
         <div class="text-vertical-center">
-            <h1>Alison Keppler</h1>
-            <h3>UX Designer. Knows a thing or two about marketing.</h3>
-            <h5><a href="#about" class="btn btn-dark btn-lg">Keep going, there's more.</a></h5>
+            <h1>ALISON KEPPLER</h1>
+            <h3><span class="intro">UX Designer.</span> Knows a thing or two about <span class="intro">marketing.</span></h3>
+            <div class="button">
+                <h5><a href="#portfolio" class="btn btn-dark btn-lg">Keep going, there's more.</a></h5>
+            </div>    
         </div>
     </header>
 
 
-    <!-- Portfolio -->
+    <!-- Portfolio Top Section -->
     <section id="portfolio" class="portfolio">
         <div class="container">
-            <div class="row">
+            <hr>
+            <div class="row no-padding">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                 <!--    <h2>PORTFOLIO</h2> -->
-               <!--      <hr class="small"> -->
+                    <h2>PROJECTS</h2>
+                </div>
+            </div>        
+                <hr class="small">
                     <div class="row">
                         <div class="col-md-6">
                           <a href="img/Clover.pdf" target="_blank" class="portfolio-box">
                             <div class="portfolio-item">
                                     <img class="img-portfolio img-responsive fade-out" src="img/carrots.jpeg">
                                     <p class="portfolio-text fade-out center">CLOVER</p>
-                                    <p class="portfolio-text fade-in center">A creative concept design to bring a local restaurant closer to engaging with its target market.</p>
+                                    <p class="portfolio-text fade-in center projects">A <span class="description">creative concept design</span> to bring a local restaurant closer to engaging with its target market.</p>
                             </div>
                            </a> 
-                        </div>     
+                        </div>       
                         <div class="col-md-6">
                           <a href="img/IdeaHack.pdf" target="_blank">  
                             <div class="portfolio-item">
                                     <img class="img-portfolio img-responsive fade-out" src="img/family2.jpeg">
                                        <p class="portfolio-text fade-out center">FUNDAYS</p>
-                                       <p class="portfolio-text fade-in center">Rapid ideation and prototyping for a new means of planning a family friendly day.</p>
+                                       <p class="portfolio-text fade-in center projects"><span class="description">Rapid ideation and prototyping</span> for a new means of planning a family friendly day.</p>
                             </div>
                           </a>  
-                        </div>
-                    </div>
+                        </div> 
+                    </div>    
                     <div class="row">  
-              <!--           <div class="col-md-6">
-                           <a href="#" target="_blank">
-                            <div class="portfolio-item">
-                                    <img class="img-portfolio img-responsive fade-out" src="img/movie.jpeg">
-                                    <p class="portfolio-text fade-out center">IMDB</p>
-                                    <p class="portfolio-text fade-in center">Reimagining a popular app to more efficiently and visually communicate its core capabilities.</p>
-                                    <p class="fade-in center soon">Coming soon.</p>
-                            </div>
-                          </a>  
-                        </div>  --> 
                         <div class="col-md-6">
                            <a href="photos/index.html" target="_blank">
                             <div class="portfolio-item">
                                     <img class="img-portfolio img-responsive fade-out" src="img/travel.jpeg">
                                     <p class="portfolio-text fade-out center">PHOTOS</p>
-                                    <p class="portfolio-text fade-in center">Diving into responsive design with a test page for travel photos.</p>
+                                    <p class="portfolio-text fade-in center projects">Diving into <span class="description">responsive design</span> with a test page for travel photos.</p>
                             </div>
                           </a>  
                         </div>  
@@ -124,36 +121,87 @@
                             <div class="portfolio-item">
                                     <img class="img-portfolio img-responsive fade-out" src="img/tshirts3.jpg">
                                          <p class="portfolio-text fade-out center">BOOSTER</p>
-                                         <p class="portfolio-text fade-in center">Helping drive a fundraising tool to the next stage of growth through lead gen and management.</p>
-                                         <p class="fade-in center soon">Coming soon.</p>
-                                            
-                                         
+                                         <p class="portfolio-text fade-in center projects">Helping drive a fundraising tool to the next stage of growth through lead gen and management.</p>
+                                         <p class="fade-in center soon">Coming soon.</p>     
                             </div>
                            </a>
                         </div>
                     </div>
+                  
+        </div>
+    </section>                    
+       
+
+<!-- About Me rollover sections -->
+
+            <section id="about" class="portfolio">
+                <div class="container">   
+                    <div class="row">
+                        <div class="col-lg-10 col-lg-offset-1 text-center">
+                            <h2>ABOUT</h2>
+                        </div>
+                    </div>   
+                    <hr class="small">
                     <!-- /.row (nested) -->
         <!--             <a href="#" class="btn btn-dark">View More Items</a> -->
-                </div>
+                <!-- </div> -->
                 <!-- /.col-lg-10 -->
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
-
-    <!-- About -->
-    <section id="about" class="about">
-<!--         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
-                    <p class="lead">This theme features some wonderful photography courtesy of <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a>.</p>
-                </div>
-            </div> -->
+            <!-- </div> -->
             <!-- /.row -->
         <!-- </div> -->
         <!-- /.container -->
+    <!-- </section> -->
+<!--     <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center"> -->
+                 <!--    <h2>PORTFOLIO</h2> -->
+               <!--      <hr class="small"> -->
+                    <div class="row">
+                        <div class="col-md-4">
+                          <span class="spantest">  
+                            <div class="portfolio-item">
+                                    <img class="img-portfolio img-responsive fade-out pig" src="img/pig.jpg">
+                                    <p class="portfolio-text fade-out center">Who I Am</p>
+                                    <p class="portfolio-text fade-in center bio-one">A UX designer leveraging marketing and PR experience to uncover the driving forces behind target audience ideals and behavior.</p>
+                                    <p class="portfolio-text fade-in center bio-two">A fan of people and their stories, using those stories to optimize product design, simplifying users' lives and driving value for a business.</p>
+                                    <p class="portfolio-text fade-in center bio-three">A curious self-starter, who won't stop until questions are answered and progress is made.</p>
+                            </div>
+                          </span>  
+                        </div>     
+                        <div class="col-md-4">
+                            <span class="spantest">
+                                <div class="portfolio-item">
+                                    <img class="img-portfolio img-responsive fade-out" src="img/road.jpg">
+                                       <p class="fade-out center portfolio-text">What I Do</p>
+                                       <p class="portfolio-text fade-in center skills-one"><span class="description">Professional skills:</span> Scientific method, user research, design thinking, information architecture, user navigation and flow, HTML/CSS, Sketch, InVision</p>
+                                       <p class="portfolio-text fade-in center skills-two"><span class="description">Slightly-less-professional skills:</span> Chatting with strangers, whiskey tasting, spontaneous dance parties, being captivated by nature documentaries </p>
+                                </div>
+                            </span>       
+                        </div>  
+                        <div class="col-md-4">
+                           <a href="img/AKeppler_resume.pdf" target="_blank">
+                            <div class="portfolio-item">
+                                    <img class="img-portfolio img-responsive fade-out displayed" src="img/stomp.jpg">
+                                    <p class="portfolio-text fade-out center">RESUME</p>
+                                <!--     <img class="img-portfolio img-responsive displayed fade-in pic" src="img/colorheadshot.jpg" /> --> <p class="portfolio-text fade-in center bio-four">Check it out.</p>
+                            </div>
+                          </a>  
+                        </div> 
+                    </div>  
+                    <!-- </div> -->
+                    <!-- /.row (nested) -->
+        <!--             <a href="#" class="btn btn-dark">View More Items</a> -->
+                <!-- </div> -->
+                <!-- /.col-lg-10 -->
+            <!-- </div> -->
+            <!-- /.row -->
+                </div>
+        <!-- /.container -->
+            </section>
+
+    <!-- About -->
+<!--     <section id="about" class="about">
                     <div class="row">
                         <div class="col-md-4 photo">
                             <div class="bio">
@@ -186,111 +234,8 @@
                             </div>    
                         </div>
                     </div>
-
-
-<!--     <div class="image"><img src="img/headshotak.jpg"></div>
-        <div class="landing">
-            <p>A UX designer leveraging marketing and PR experience to uncover the driving forces behind target audience ideals and behavior, and identifying how to best incorporate the stories and perspectives from multiple stakeholders into achieving the strategic objectives of a business.</p>   
-            <p> And of course, <a href="https://drive.google.com/open?id=0By4G5YBFaxKjRE5ETFJJMUttOEk">here's</a> a good old fashioned resume.</p>
-        </div> -->
     </section>
-
-
-
-    <!-- Services -->
-    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
-    <!-- <section id="services" class="services bg-primary">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <h2>Our Services</h2>
-                    <hr class="small">
-                    <div class="row">
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-cloud fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Service Name</strong>
-                                </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-compass fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Service Name</strong>
-                                </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-flask fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Service Name</strong>
-                                </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-shield fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Service Name</strong>
-                                </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
-                        </div>
-                    </div> -->
-                    <!-- /.row (nested) -->
-                <!-- </div> -->
-                <!-- /.col-lg-10 -->
-            <!-- </div> -->
-            <!-- /.row -->
-        <!-- </div> -->
-        <!-- /.container -->
-    <!-- </section> -->
-
-    <!-- Callout -->
-<!--     <aside class="callout">
-        <div class="text-vertical-center">
-            <h1>Vertically Centered Text</h1>
-        </div>
-    </aside> -->
-
-
-
-    <!-- Call to Action -->
-<!--     <aside class="call-to-action bg-primary">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h3>The buttons below are impossible to resist.</h3>
-                    <a href="#" class="btn btn-lg btn-light">Click Me!</a>
-                    <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
-                </div>
-            </div>
-        </div>
-    </aside> -->
-
-
+ -->
     <!-- Footer -->
 
     <footer>
@@ -308,16 +253,16 @@
                     <br>
                     <ul class="list-inline">
                         <li>
-                            <a href="#"><i class="fa fa-twitter fa-fw fa-2x"></i></a>
+                            <a href="https://twitter.com/AlisonKeppler" target="_blank"><i class="fa fa-twitter fa-fw fa-2x"></i></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-instagram fa-fw fa-2x"></i></a>
+                            <a href="https://www.instagram.com/aekepp/" target="_blank"><i class="fa fa-instagram fa-fw fa-2x"></i></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-linkedin fa-fw fa-2x"></i></a>
+                            <a href="https://www.linkedin.com/in/alison-keppler-609b9014" target="_blank"><i class="fa fa-linkedin fa-fw fa-2x"></i></a>
                         </li>
                         <li>
-                            <a href="mailto:aekeppler@gmail.com"><i class="fa fa-envelope-o fa-fw fa-2x"></i></a>
+                            <a href="mailto:aekeppler@gmail.com" target="_blank"><i class="fa fa-envelope-o fa-fw fa-2x"></i></a>
                         </li>
                     </ul>
                     <hr class="small">

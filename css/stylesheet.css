@@ -3,20 +3,27 @@ p{
 	text-align: center;
 }
 
+/*header*/
+
+header{
+	padding-top: 150px;
+}
+
 h1,
 h3{
 	color:white;
 }
 
 h1{
-	font-family: 'Fjalla One', sans-serif;
+	font-family: 'Rock Salt', cursive;
+	font-size:9em;
 }
 
 h3{
-	margin-bottom: 20px;
+	font-family: 'Oranienbaum', serif;
+	margin-top:35px;
 }
 
-h3,
 h4{
 	font-family: 'Volkhov', serif;
 
@@ -27,58 +34,36 @@ h5{
 	font-family:'Cabin', sans-serif;
 }
 
-.landing{
+.button{
+	padding-top:20px;
+}
+
+span.intro{
+	color:#64EAFB;
+}
+
+/*.landing{
 	width:50%;
 	margin-left: auto;
 	margin-right:auto;
 	padding-bottom: 20px;
 }
+*/
 
-.about{
-	background-color: rgba(8, 221, 248, 0.65);
-	background-attachment: fixed;
-}
+/*portfolio section*/
 
-.headshot{
-	height:470px;
-	width:100%;
-	background-size:cover;
-	background: url('../img/colorheadshot.jpg') no-repeat center;
-/*	background-attachment: fixed; */
-}
-
-.photo{
-	padding:0;
-}
-
-.bio p{
-/*	padding: 20px;*/
-	font-size: 1.1em;
-}
-
-#subheads{
-	padding:20px;
-	font-family: 'Volkhov', serif;
-	font-weight:700;
-	font-size:1.5em;
-	color:#424141;
-}
-
-.about p{
-	font-family: 'Cabin', sans-serif;
-	padding-left:30px;
-	padding-right:30px;
-	color:#646262;
-}
-
-.space{
+.row{
 	padding-top:20px;
-	padding-bottom:20px;
 }
 
-.resume{
-	font-weight: 700;
-	font-style: italic;
+.no-padding{
+	padding-top:0;
+}
+
+h2{
+	color:white;
+	font-size:1.3em;
+	font-family: 'Oranienbaum', serif;
 }
 
 .portfolio-text {
@@ -87,9 +72,10 @@ h5{
 	transform: translateY(-50%);
 	width: 100%;
 	font-size:1.5em;
-	padding-right: .5em;
+	padding-right: .3em;
+	padding-bottom:.2em;
 	font-family: 'Arimo', sans-serif;
-	color:#424141;
+	color:white;
 }
 
 .fade-in {
@@ -121,9 +107,35 @@ h5{
 	text-align: center;
 }
 
-span{
-	font-family:'Volkhov', sans-serif;
+#about a:hover .fade-in {
+	opacity: 1;
+	transition: .45s;
+}
+
+#about a:hover .fade-out {
+	opacity: 0;
+	transition: .45s;
+}
+
+#about span.spantest:hover .fade-in {
+	opacity: 1;
+	transition: .45s;
+}
+
+#about span.spantest:hover .fade-out {
+	opacity: 0;
+	transition: .45s;
+}
+
+.projects{
+	padding:0 40px;
 	color:gray;
+}
+
+span.description{
+	font-weight:bold;
+	color:white;
+	font-style:italic;
 }
 
 .soon{
@@ -134,14 +146,124 @@ span{
 	font-size:1.2em;
 	padding-right: .5em;
 	font-family: 'Arimo', sans-serif;
-	color:gray;
+	color:white;
 	font-style: italic;
 }
 
+/*#about a:hover .fade-in {
+	opacity: 1;
+	transition: .45s;
+}
+
+#about a:hover .fade-out{
+	opacity: 1;
+	transition: .45s;
+}*/
+
+/*span{
+	font-family:'Volkhov', sans-serif;
+	color:gray;
+}
+*/
+
+
+/*about me boxes section*/
+
+.bio-one{
+	top:20%;
+	font-size: .9em;
 }
 
 
+.bio-two{
+	top:45%;
+	font-size:.9em;
+}
 
+.bio-three{
+	top:70%;
+	font-size: .9em;
+}
+
+.bio-four{
+	top:45%;
+}
+
+.skills-one{
+	top:30%;
+	font-size:1em;
+}
+
+.skills-two{
+	top:60%;
+	font-size:1em;
+}
+
+/*.pic{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+	font-size:1.5em;
+	padding-right: .3em;
+	font-family: 'Arimo', sans-serif;
+	color:white;
+}*/
+
+
+/*columns section*/
+
+.about{
+	background-color: black;
+}
+
+.about p{
+	font-family: 'Cabin', sans-serif;
+	padding-left:30px;
+	padding-right:30px;
+	color:#646262;
+}
+
+/*.pig{
+	max-height: 399px;
+}*/
+
+/*.space{
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+.resume{
+	font-weight: 700;
+	font-style: italic;
+}*/
+/*
+.photo{
+	padding:0;
+}
+
+.bio p{
+	padding: 20px;
+	font-size: 1.1em;
+}
+
+.headshot{
+	height:470px;
+	width:100%;
+	background-size:cover;
+	background: url('../img/colorheadshot.jpg') no-repeat center;
+	background-attachment: fixed; 
+}
+*/
+/*
+#subheads{
+	padding:20px;
+	font-family: 'Volkhov', serif;
+	font-weight:700;
+	font-size:1.5em;
+	color:#424141;
+}
+*/
 
 img.displayed {
     display: block;
@@ -149,10 +271,15 @@ img.displayed {
     margin-right: auto;
 }
 
-.list-inline a{
-	color:gray;
+.list-inline{
+	padding-bottom:10px;
 }
 
+.list-inline a{
+	color:rgba(132, 241, 255, 0.99);
+}
+
+/*footer*/
 
 hr{
 	display: block;
@@ -163,6 +290,7 @@ hr{
 	border-style:inset;
 	border-width: 1px;
 	width:85%;
+	border-color:#C565C5;
 }
 
 h4{
@@ -173,7 +301,7 @@ h4{
 }
 
 footer{
-	background-color: rgba(8, 221, 248, 0.46);
+	background-color: black;
 }
 
 p{

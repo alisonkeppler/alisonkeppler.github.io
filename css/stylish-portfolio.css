@@ -35,14 +35,14 @@ body {
 .btn-dark {
     border-radius: 0;
     color: #fff;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(94, 2, 121, 0.93);
 }
 
 .btn-dark:hover,
 .btn-dark:focus,
 .btn-dark:active {
-    color: #fff;
-    background-color: rgba(0,0,0,0.7);
+    color: black;
+    background-color: white;
 }
 
 .btn-light {
@@ -156,12 +156,13 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(https://images.unsplash.com/photo-1447758501994-89bb4bae35d3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=3dc3e071213a86f6054535546abf0c55) no-repeat center center scroll;
-    -webkit-background-size: cover;
+    background-color: black;
+/*    background: url(https://images.unsplash.com/photo-1447758501994-89bb4bae35d3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=3dc3e071213a86f6054535546abf0c55) no-repeat center center scroll;
+*/    -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    background-attachment: fixed;
+/*    background-attachment: fixed;*/
 }
 
 /* About */
@@ -197,8 +198,8 @@ hr.small {
 /* Portfolio */
 
 .portfolio {
-    padding-top: 30px;
-    background-color: rgba(3, 169, 244, 0.65);
+    background-color:black;
+  /*  background-color: rgba(3, 169, 244, 0.65);*/
 }
 
 .portfolio-item {
