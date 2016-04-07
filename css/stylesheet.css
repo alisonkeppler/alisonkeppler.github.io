@@ -302,13 +302,7 @@ img.displayed {
     margin-right: auto;
 }
 
-.list-inline{
-	padding-bottom:10px;
-}
 
-.list-inline a{
-	color:rgba(132, 241, 255, 0.99);
-}
 
 /*footer*/
 
@@ -339,6 +333,17 @@ p{
 	padding:0;
 }
 
+.cta{
+	color:#999494;
+}
+
+.list-inline{
+	padding-bottom:10px;
+}
+
+.list-inline a{
+	color:rgba(132, 241, 255, 0.99);
+}
 
 
 /*media queries*/
