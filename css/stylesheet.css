@@ -346,7 +346,8 @@ p{
 	.text-vertical-center h1{
 		font-size:2.5em;
 	}
-	.portfolio-text.fade-out{
+	.portfolio-text.fade-out,
+	p.portfolio-text.fade-out.center.about-titles{
 		font-size:5em;
 	}
 }
