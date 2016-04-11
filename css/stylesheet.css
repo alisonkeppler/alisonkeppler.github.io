@@ -39,6 +39,11 @@ h5{
 	font-family:'Cabin', sans-serif;
 }
 
+.subhead{
+	font-size:1em;
+	color:white;
+}
+
 .button{
 	padding-top:20px;
 }
