@@ -25,9 +25,9 @@ h1{
 }
 
 h3{
-	font-family: 'Neuton', serif;
+	font-family: 'Open Sans Condensed', sans-serif;
 	margin-top:35px;
-	font-weight:200;
+	font-weight:300;
 }
 
 h4{
@@ -37,7 +37,7 @@ h4{
 
 h5{
 	font-size:1em;
-	font-family:'Neuton', sans-serif;
+	font-family:'Open Sans Condensed', sans-serif;
 }
 
 .subhead{
@@ -86,7 +86,7 @@ h2{
 	font-size:1.5em;
 	padding-right: .3em;
 	padding-bottom:.2em;
-	font-family: 'Arimo', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	color:white;
 }
 
@@ -306,6 +306,7 @@ p{
 
 .cta{
 	color:#999494;
+	font-family: 'Neuton', serif;
 }
 
 .list-inline{
