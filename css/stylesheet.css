@@ -25,8 +25,9 @@ h1{
 }
 
 h3{
-	font-family: 'Oranienbaum', serif;
+	font-family: 'Neuton', serif;
 	margin-top:35px;
+	font-weight:200;
 }
 
 h4{
@@ -36,7 +37,7 @@ h4{
 
 h5{
 	font-size:1em;
-	font-family:'Cabin', sans-serif;
+	font-family:'Neuton', sans-serif;
 }
 
 .subhead{
@@ -73,7 +74,8 @@ span.intro{
 h2{
 	color:white;
 	font-size:1.3em;
-	font-family: 'Oranienbaum', serif;
+	font-family: 'Neuton', serif;
+	font-weight:400;
 }
 
 .portfolio-text {
@@ -225,11 +227,15 @@ span.description{
 .skills-one{
 	top:30%;
 	font-size:1em;
+	padding-right:30px;
+	padding-bottom:20px;
 }
 
 .skills-two{
 	top:60%;
 	font-size:1em;
+	padding-right:30px;
+	padding-top:20px;
 }
 
 /*.pic{
@@ -244,7 +250,7 @@ span.description{
 }*/
 
 p.portfolio-text.fade-out.center.about-titles{
-	font-size:6em;
+	font-size:4em;
 }
 
 /*columns section*/
