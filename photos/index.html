@@ -27,55 +27,124 @@
     <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,600,700,600italic,700italic,400italic' rel='stylesheet' type='text/css'>
    <link href='https://fonts.googleapis.com/css?family=Asap:400,700' rel='stylesheet' type='text/css'>
 
+<link href='https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy|Neuton:400,200,300|Gentium+Basic:400,700' rel='stylesheet' type='text/css'>
+
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
+
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+        <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+       <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
 
     <!-- My Styles CSS-->
     <link rel="stylesheet" type="text/css" href="css/classstylesheet.css"> 
 
 <!-- Lightbox effect -->
 
-    <link rel="stylesheet" type="text/css" media="screen" href="http://cdnjs.cloudflare.com/ajax/libs/fancybox/1.3.4/jquery.fancybox-1.3.4.css" />
-<style type="text/css">
-    a.fancybox img {
-        border: none;
-        box-shadow: 0 1px 7px rgba(0,0,0,0.6);
-        -o-transform: scale(1,1); -ms-transform: scale(1,1); -moz-transform: scale(1,1); -webkit-transform: scale(1,1); transform: scale(1,1); -o-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out;
-    } 
-    a.fancybox:hover img {
-        position: relative; z-index: 999; -o-transform: scale(1.03,1.03); -ms-transform: scale(1.03,1.03); -moz-transform: scale(1.03,1.03); -webkit-transform: scale(1.03,1.03); transform: scale(1.03,1.03);
-    }
-</style>
 
   </head>
   <body>
-    <header id="alison">
+
+ <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle visible-sm-* visible-xs-* hidden-md hidden-lg"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+<!--                 <a href="#top"  onclick = $("#menu-close").click();>Alison Keppler</a>
+            </li>
+            <li> -->
+                <a href="../index.html" onclick = $("#menu-close").click();><img src="img/logowhite.png" class="logo"/></a>
+            </li>
+            <li>
+                <a href="http://www.alisonkeppler.com#portfolio" onclick = $("#menu-close").click();>Projects</a>
+            </li>
+            <li>
+                <a href="http://www.alisonkeppler.com#about" onclick = $("#menu-close").click();>About</a>
+            </li>
+            <li>
+                <a href="http://www.alisonkeppler.com#contact" onclick = $("#menu-close").click();>Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <nav class="navbar navbar-default visible-md-* visible-lg-* hidden-sm hidden-xs navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+<!--         <div class="navbar-header">
+          <a class="navbar-brand" href="#top">Alison Keppler</a>
+        </div> -->
+
+        <div id="expanded-nav">
+          <div class="nav navbar-nav">
+            <a href="../index.html" onclick = navClick("#nav-home-button")><img src="img/logowhite.png" id="nav-home-button" class="top-left logo"/></a>
+<!--             <li id="nav-home-button" class="active"><a href="#top" onclick = navClick("#nav-home-button")>Home</a></li> -->
+            <ul class="float-right list-inline">
+              <li id="nav-projects-button"><a href="http://www.alisonkeppler.com#portfolio" onclick = navClick("#nav-projects-button")>projects</a></li>
+              <li id="nav-about-button"><a href="http://www.alisonkeppler.com#about" onclick = navClick("#nav-about-button")>about</a></li>
+              <li id="nav-contact-button"><a href="http://www.alisonkeppler.com#contact" onclick = navClick("#nav-contact-button")>contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="intro">
+        <div class="container">
+<!--             <div class="row">
+                <div class="col-md-10 col-md-offset-1 center">
+                    <h3>The need for and value of responsive design</h3>
+                </div>
+            </div> -->
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1 center">
+                    <p class="height">As the world of Web design expands, so too do best practices and user standards. <span class="bold italic">What was once an aspiration is now an expectation</span>, and nowhere is that more apparent than with <span class="big bold">responsive design</span>. A mobile-friendly site was formerly a "nice-to-have"; it's now non-negotiable. <span class="bold italic">Understanding the details of the stratey, aesthetic and code that go into responsive sites</span> was at the forefront of of my initial education surrounding UX and front-end development, with this site as an early project to develop the skillset. Showcasing some of my photography was a means of highlighting my understanding of the <span class="bold italic">need to properly display content at all stages of user interaction</span>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<hr>
+
+<!--     <header id="alison">
        <a href="../index.html" class="alison">Alison Keppler</a>
        <nav>
             <ul>
                 <li class="first"><a href="#about" data-scroll>About</a></li>
                 <li class="first"><a href="#gallery" data-scroll>Gallery</a></li>
-<!--                 <li class="first"><a href="#tbd" data-scroll>TBD</a></li> -->
-                <li class="first"><a href="#contact" data-scroll>Contact</a></li>    
+                <li class="first"><a href="#tbd" data-scroll>TBD</a></li> -->
+ <!--                <li class="first"><a href="#contact" data-scroll>Contact</a></li>    
             </ul>     
-       </nav> 
+       </nav>  -->
 
-    </header>   
+<!--     </header>  --> 
+
+
     <section class="landing center-container">
         <div class="absolute-center">
             <h1>Get outside.</h1>
         </div>
-     </div>
     </section>
 
 <!-- Bio section -->
     <hr id="about">
 
     <section class="bio">   
-
-        </div>  
+ 
   <!--       <div class="bio"> -->
-            <p class="scroll">    
-            I've enjoyed a diverse list of jobs and non-employment opportunities over the past several years, many of which took me to regions of the globe I feel incredibly fortunate to have experienced. Such travels gave me the chance to refine a range of communication styles, including linguistic endeavors, ad hoc sign language, pictionary and, of course, photography.</p>
+            
+<div class="container">
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1 center">
+            <p>I've enjoyed a diverse list of jobs and non-employment opportunities over the past several years, many of which took me to regions of the globe I feel incredibly fortunate to have experienced. Such travels gave me the chance to refine a range of communication styles, including linguistic endeavors, ad hoc sign language, pictionary and, of course, photography.</p>
+        </div>
+    </div>
+</div>
 
        <!--  </div> -->
     </section>
@@ -137,28 +206,32 @@
 <!-- Contact Me section -->
 
     <section id="contact">
-        <h4> Say hello. </h4>
+        <h4> Say hello at aekeppler@gmail.com. </h4>
     <hr class="last">    
-        <div class="contact">
+<!--         <div class="contact">
             <ul>
                 <li>
-                    <a href="https://www.linkedin.com/in/alison-keppler-609b9014" class="color"><i class="fa fa-linkedin fa-3x"></i></a>
+                    <a href="https://www.linkedin.com/in/alison-keppler-609b9014" class="color"><i class="fa fa-linkedin fa-2x"></i></a>
                 </li>
                 <li>
-                    <a href="http://www.twitter.com/aliaftercali" class="color"><i class="fa fa-instagram fa-3x"></i></a>
+                    <a href="http://www.twitter.com/aliaftercali" class="color"><i class="fa fa-instagram fa-2x"></i></a>
                 </li>
                 <li>
-                    <a href="https://www.instagram.com/aekepp/" class="color"><i class="fa fa-twitter fa-3x"></i> </a>
+                    <a href="https://www.instagram.com/aekepp/" class="color"><i class="fa fa-twitter fa-2x"></i> </a>
                 </li>
                 <li>
-                    <a href="mailto:aekeppler@gmail.com" class="color"><i class="fa fa-envelope-o fa-3x"></i></a>
+                    <a href="mailto:aekeppler@gmail.com" class="color"><i class="fa fa-envelope-o fa-2x"></i></a>
                 </li>
             </ul>    
         </div>       
-    </section>      
+    </section>   -->
+  
 
 
 <!-- Smooth scrolling script -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
 
      <script src="smooth-scroll.js"></script>
      <script>
@@ -175,29 +248,7 @@
 
 <!-- Lightbox effect -->
 
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/fancybox/1.3.4/jquery.fancybox-1.3.4.pack.min.js"></script>
-<script type="text/javascript">
-    $(function($){
-        var addToAll = true;
-        var gallery = true;
-        var titlePosition = 'inside';
-        $(addToAll ? 'img' : 'img.fancybox').each(function(){
-            var $this = $(this);
-            var title = $this.attr('title');
-            var src = $this.attr('data-big') || $this.attr('src');
-            var a = $('<a href="#" class="fancybox"></a>').attr('href', src).attr('title', title);
-            $this.wrap(a);
-        });
-        if (gallery)
-            $('a.fancybox').attr('rel', 'fancyboxgallery');
-        $('a.fancybox').fancybox({
-            titlePosition: titlePosition
-        });
-    });
-    $.noConflict();
-</script>
+
    </body>
 </html>
 

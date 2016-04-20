@@ -11,13 +11,16 @@
 
     <title>Alison Keppler Portfolio</title>
 
+<!-- favicon -->
+<link rel="shortcut icon" href="img/favicon_ak.ico">
+
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/stylish-portfolio.css" rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="css/mainstylesheet.css">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -48,26 +51,49 @@
 <body>
 
     <!-- Navigation -->
-    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+<!-- <div class="logo">
+</div> -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle visible-sm-* visible-xs-* hidden-md hidden-lg"><i class="fa fa-bars"></i></a>
     <nav id="sidebar-wrapper">
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
             <li class="sidebar-brand">
-                <a href="#top"  onclick = $("#menu-close").click(); >Alison Keppler</a>
+<!--                 <a href="#top"  onclick = $("#menu-close").click();>Alison Keppler</a>
+            </li>
+            <li> -->
+                <a href="#top" onclick = $("#menu-close").click();><img src="img/logobw.png" class="logo"/></a>
             </li>
             <li>
-                <a href="#top" onclick = $("#menu-close").click(); >Home</a>
+                <a href="#portfolio" onclick = $("#menu-close").click();>Projects</a>
             </li>
             <li>
-                <a href="#portfolio" onclick = $("#menu-close").click(); >Projects</a>
+                <a href="#about" onclick = $("#menu-close").click();>About</a>
             </li>
             <li>
-                <a href="#about" onclick = $("#menu-close").click(); >About</a>
-            </li>
-            <li>
-                <a href="#contact" onclick = $("#menu-close").click(); >Contact</a>
+                <a href="#contact" onclick = $("#menu-close").click();>Contact</a>
             </li>
         </ul>
+    </nav>
+
+    <nav class="navbar navbar-default visible-md-* visible-lg-* hidden-sm hidden-xs navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+<!--         <div class="navbar-header">
+          <a class="navbar-brand" href="#top">Alison Keppler</a>
+        </div> -->
+
+        <div id="expanded-nav">
+            <div class="nav navbar-nav">
+                <a href="#top" onclick = navClick("#nav-home-button")><img src="img/logobw.png" id="nav-home-button" class="top-left logo"/></a>
+<!--                 <li id="nav-home-button" class="top-left"><a href="#top" onclick = navClick("#nav-home-button")><img src="img/AKlogo.png" class="logo"/></a></li> -->
+                <ul class="float-right list-inline">
+                    <li id="nav-projects-button"><a href="#portfolio" onclick = navClick("#nav-projects-button")>projects</a></li>
+                    <li id="nav-about-button"><a href="#about" onclick = navClick("#nav-about-button")>about</a></li>
+                    <li id="nav-contact-button"><a href="#contact" onclick = navClick("#nav-contact-button")>contact</a></li>
+                </ul>
+            </div>
+        </div>
+      </div>
     </nav>
 
     <!-- Header -->
@@ -89,13 +115,13 @@
             <hr>
             <div class="row no-padding">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2>PROJECTS</h2>
+                    <h2>projects</h2>
                 </div>
             </div>        
                 <hr class="small">
                     <div class="row">
                         <div class="col-md-6">
-                          <a href="img/Clover.pdf" target="_blank" class="taphover">
+                          <a href="../finalportfolio/clover_page/index.html" class="taphover">
                             <div class="portfolio-item">
                                     <img class="img-portfolio img-responsive fade-out" src="img/carrots.jpeg">
                                     <p class="portfolio-text fade-out center">CLOVER</p>
@@ -105,7 +131,7 @@
                            </a> 
                         </div>       
                         <div class="col-md-6">
-                          <a href="img/IdeaHack.pdf" target="_blank" class="taphover">  
+                          <a href="../finalportfolio/ideahack_page/index.html" class="taphover">  
                             <div class="portfolio-item">
                                     <img class="img-portfolio img-responsive fade-out" src="img/family2.jpeg">
                                        <p class="portfolio-text fade-out center">FUNDAYS</p>
@@ -148,7 +174,7 @@
                 <div class="container">   
                     <div class="row">
                         <div class="col-lg-10 col-lg-offset-1 text-center">
-                            <h2>ABOUT</h2>
+                            <h2>about</h2>
                         </div>
                     </div>   
                     <hr class="small">
@@ -184,8 +210,8 @@
                                 <div class="portfolio-item">
                                     <img class="img-portfolio img-responsive fade-out" src="img/road.jpg">
                                        <p class="fade-out center portfolio-text about-titles">What I Do</p>
-                                       <p class="portfolio-text fade-in center skills-one"><span class="description">Professional skills:</span> Scientific method, user research, design thinking, information architecture, user navigation and flow, wireframing, prototyping, HTML/CSS, Sketch, InVision</p>
-                                       <p class="portfolio-text fade-in center skills-two"><span class="description">Slightly-less-professional skills:</span> Chatting with strangers, whiskey tasting, spontaneous dance parties, being captivated by nature documentaries </p>
+                                       <p class="portfolio-text fade-in center skills-one"><span class="description">Professional skills:</span> Scientific method, user research, usability testing, design thinking, information architecture, user navigation and flow, wireframing, prototyping, HTML/CSS, Sketch, InVision</p>
+                                       <p class="portfolio-text fade-in center skills-two"><span class="description">Slightly-less-professional skills:</span> Chatting with strangers, enjoying whiskey, spontaneous dance parties, being captivated by nature documentaries </p>
                                 </div>
                             </span>       
                         </div>  
@@ -249,36 +275,44 @@
     <!-- Footer -->
 
     <footer>
-       <hr>
-        <div class="container" id="contact">
+        <section class="footer">
+            <div class="container">   
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1 text-center">
+                        <h2>contact</h2>
+                    </div>
+                </div>   
+            <hr class="small">
+        <div class="container center" id="contact">
             <div class="row ending">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4 class="cta">Looking for a UX designer? Want to trade recipes for whiskey cocktails? Say hi anytime.</h4>
+                <div class="col-md-12 center">
+                    <h4 class="cta center">Looking for a UX designer? Want to trade recipes for whiskey cocktails? Say hi anytime.</h4>
+                </div>
          <!--            <p>3481 Melrose Place<br>Beverly Hills, CA 90210</p> -->
                     <!-- <ul class="list-unstyled"> -->
                      <!--    <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li> -->
 <!--                         <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:aekeppler@gmail.com">aekeppler@gmail.com</a>
                         </li> -->
                     <!-- </ul> -->
-                    <br>
+
+                <div class="col-md-12 center">
                     <ul class="list-inline">
                         <li>
-                            <a href="https://twitter.com/AlisonKeppler" target="_blank"><i class="fa fa-twitter fa-fw fa-2x"></i></a>
+                            <a href="https://twitter.com/AlisonKeppler" target="_blank"><i class="fa fa-twitter fa-fw fa-1x"></i></a>
                         </li>
                         <li>
-                            <a href="https://www.instagram.com/aekepp/" target="_blank"><i class="fa fa-instagram fa-fw fa-2x"></i></a>
+                            <a href="https://www.instagram.com/aekepp/" target="_blank"><i class="fa fa-instagram fa-fw fa-1x"></i></a>
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com/in/alison-keppler-609b9014" target="_blank"><i class="fa fa-linkedin fa-fw fa-2x"></i></a>
+                            <a href="https://www.linkedin.com/in/alison-keppler-609b9014" target="_blank"><i class="fa fa-linkedin fa-fw fa-1x"></i></a>
                         </li>
                         <li>
-                            <a href="mailto:aekeppler@gmail.com"><i class="fa fa-envelope-o fa-fw fa-2x"></i></a>
+                            <a href="mailto:aekeppler@gmail.com"><i class="fa fa-envelope-o fa-fw fa-1x"></i></a>
                         </li>
                     </ul>
                     <!-- <p class="email">aekeppler@gmail.com</p> -->
-                    <hr class="small">
-    <!--                 <p class="text-muted">Copyright &copy; Alison Keppler 2016</p> -->
-                </div>
+      <!--               <hr class="small"> -->
+    <!--                 <p class="text-muted">Copyright &copy; Alison Keppler 2016</p> -->     </div>
             </div>
         </div>
     </footer>
@@ -327,6 +361,7 @@
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/fancybox/1.3.4/jquery.fancybox-1.3.4.pack.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
 <script type="text/javascript">
     $(function($){
         var addToAll = false;

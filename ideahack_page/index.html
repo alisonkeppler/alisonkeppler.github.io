@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>FunDays case study</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+  <!-- initialize -->
+  <link rel="stylesheet" type="text/css" href="css/initialize.css">
+
+<!-- font awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+
+<!-- fonts -->
+<link href='https://fonts.googleapis.com/css?family=Arimo:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Merriweather:400,700,900,700italic' rel='stylesheet' type='text/css'>
+
+    <link href='https://fonts.googleapis.com/css?family=Rock+Salt|Over+the+Rainbow' rel='stylesheet' type='text/css'>
+
+    <link href='https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy|Neuton:400,200,300|Gentium+Basic:400,700' rel='stylesheet' type='text/css'>
+
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+   <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+    <!-- lightbox css -->
+    <link rel="stylesheet" type="text/css" href="css/lightbox.css">
+
+  <!-- customs styles -->
+  <link rel="stylesheet" type="text/css" href="css/ideahackstylesheet.css">
+
+</head>
+<body>
+
+  <!-- navigation -->
+
+  <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle visible-sm-* visible-xs-* hidden-md hidden-lg"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+<!--                 <a href="#top"  onclick = $("#menu-close").click();>Alison Keppler</a>
+            </li>
+            <li> -->
+                <a href="../finalportfolio/index.html" onclick = $("#menu-close").click();><img src="img/logowhite.png" class="logo"/></a>
+            </li>
+            <li>
+                <a href="http://www.alisonkeppler.com#portfolio" onclick = $("#menu-close").click();>Projects</a>
+            </li>
+            <li>
+                <a href="http://www.alisonkeppler.com#about" onclick = $("#menu-close").click();>About</a>
+            </li>
+            <li>
+                <a href="http://www.alisonkeppler.com#contact" onclick = $("#menu-close").click();>Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <nav class="navbar navbar-default visible-md-* visible-lg-* hidden-sm hidden-xs navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+<!--         <div class="navbar-header">
+          <a class="navbar-brand" href="#top">Alison Keppler</a>
+        </div> -->
+
+        <div id="expanded-nav">
+          <div class="nav navbar-nav">
+            <a href="../index.html" onclick = navClick("#nav-home-button")><img src="img/logowhite.png" id="nav-home-button" class="top-left logo"/></a>
+<!--             <li id="nav-home-button" class="active"><a href="#top" onclick = navClick("#nav-home-button")>Home</a></li> -->
+            <ul class="float-right list-inline">
+              <li id="nav-projects-button"><a href="http://www.alisonkeppler.com#portfolio" onclick = navClick("#nav-projects-button")>projects</a></li>
+              <li id="nav-about-button"><a href="http://www.alisonkeppler.com#about" onclick = navClick("#nav-about-button")>about</a></li>
+              <li id="nav-contact-button"><a href="http://www.alisonkeppler.com#contact" onclick = navClick("#nav-contact-button")>contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+<!-- <div class="container clover">
+  <div class="row">
+    <div class="col-md-6">
+      <img src="img/clover_logo_full.png"/>
+    </div>
+  </div> -->
+
+
+<div class="container ideahack">
+  <div class="row intro">
+    <div class="col-md-5 center">
+      <img src="img/fundays_mockup.jpg" class="mockup"/>
+    </div>
+    <div class="col-md-7 padding-top">
+      <h4> Our class was handed a <span class="bold dark-grey">challenge:</span></h4>
+      <div class="hack">
+        <h3 class="bold italic dark-grey intro">Come up with a mobile app.</h3>
+        <h3 class="bold italic dark-grey intro">And then present a plan for the sales, marketing and design of said app.</h3> 
+        <h3 class="bold italic dark-grey intro">In four hours.</span></h3>
+      </div>
+      <h4>Fairly open ended.</h4>
+      <h4>But with those instructions, our group of four brainstormed and piggybacked and found our way to an idea with some legs.</h4>
+      <h4> Here was the <span class="bold dark-grey">problem</span>. Plenty of people want to take advantage of the cities they live in or near, but planning the best itinerary is overwhelming and exhausting. For families with young kids, the task of creating and executing a fun-filled day is even more daunting.</h4>
+      <h4>Our <span class="bold dark-grey">solution</span>: An app that curates events and activities in a given city, specific to assorted personas and preferences. The minimum viable product (MVP) incorporates desired days, times and categories of activities. and would create tailored itineraries for users, while the long-term goal is to take into account logistical concerns including transportation and weather through additional integrations.</h4>
+      <h2>We called it <span class="blue big">FunDays</span>.</h2>
+
+<hr class="first-line">
+
+      <div class="row">
+        <div class="col-md-6">
+          <h3>RESEARCH.</h3>
+          <p>Think about the MVP. Time was of the essence, so <span class="bold dark-grey">prioritizing and making the necessary decisions to move forward</span> was essential. Narrowing down the target market and critical features for a first iteration was the primary goal.</p>
+        </div>
+<!--         <div class="col-md-6 center">
+          <a href="img/ideahack_wireframes.jpg" data-title="Current site" data-lightbox="Clover case study">
+          <img src="img/current_site.jpg" class="img-thumbnail img-padding current-vertical-center"/>
+          </a>
+        </div> -->
+        <div class="col-md-6">  
+          <h3>WIREFRAMES.</h3>
+          <p>While two of our team worked through the business model, and plans for sales and marketing, my design partner and I discussed the <span class="bold dark-grey">navigation and layouts for priority features</span>, and put together preliminary wireframes (pictured) to demonstrate the user’s flow through the app.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 center">
+          <a href="img/ideahack_wireframes.png" data-title="Wireframes" data-lightbox="Wireframes">
+          <img src="img/ideahack_wireframes.png" class="img-thumbnail img-padding wireframes-height"/>
+        </a>
+        </div>
+      </div>
+      <h3>DESIGN.*</h3>
+      <p class="italic">*With the disclaimer that the following steps occured on my own, after the cutoff for the IdeaHack.</p>
+      <p>After refining ideas in the initial sketches, I brought those plans a little closer to life with the clearer mockups shown here to outline a few of the first key steps the users would go through.</p>
+      <h3>PROTOTYPE.</h3>
+      <p class="center"><a href="https://invis.io/986TVY8P6" class="invision italic" target="_blank">Head to InVision to see it in action.</a></p>
+      <p>This is an example of one possible flow, for a user located in the Seaport neighborhood of Boston, looking for an afternoon excursion on April 10.
+      <h3>VALIDATE.</h3>
+      <p>While this app is currently just a concept, if we were to launch the idea, my next step would be to <span class="bold dark-grey">test its performance against pre-determined benchmarks</span>. For example, during usability testing, I would measure how many people from a test group were able to complete the assigned task to ensure the user flow is intuitive.  
+      <h3>ITERATE.</h3>
+      <p>Adjust the app content and functionality based on  user feedback during testing.</p>
+      <p><span class="bold dark-grey">Rinse. Repeat.</span> Find a way to the solution.</p>
+  </div>
+</div>
+
+  <hr>    
+    <div class="container">
+      <div class="row footer">
+        <div class="col-md-10 col-md-offset-1 center cta italic">
+          <p>Interested in discussing FunDays further? Let me know at aekeppler@gmail.com.</p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/lightbox.min.js"></script>
+<script>
+    lightbox.option({
+      'wrapAround': true
+    })
+</script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
