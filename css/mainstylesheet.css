@@ -159,6 +159,7 @@ h2{
 	font-family:'Fjalla One', sans-serif;
 }
 
+
 .center{
 	text-align: center;
 }
@@ -218,8 +219,13 @@ h2{
 }
 
 .projects{
-	padding:0 40px;
+/*	padding:0 40px;*/
 	color:gray;
+}
+
+p.portfolio-text.fade-in.center.projects{
+	padding-right:65px;
+	padding-left:40px;
 }
 
 span.description{
@@ -301,7 +307,7 @@ span.description{
 	top:60%;
 	font-size:1em;
 	padding-right:30px;
-	padding-top:20px;
+	margin-top:20px;
 }
 
 /*.pic{
@@ -424,6 +430,28 @@ p{
 	}
 }
 
+@media (max-width: 399px){
+	.soon{
+		transform:translateY(-50%);
+	}
+	.text-top{
+		font-size:1.3em;
+	}
+}
+
+
+@media (min-width:500px) and (max-width: 720px){
+	.soon{
+		transform:translateY(-300%);
+	}
+
+@media (min-width:400px) and (max-width:499px){
+	.soon{
+		transform:translateY(-150%);
+	}
+}
+
+
 @media (max-width: 770px){
 	.toggle{
 		margin:5px 20px 0 0;
@@ -434,7 +462,7 @@ p{
 	.bio-one, 
 	.bio-two,
 	.bio-three,
-	.skills-two,
+	.skills-one,
 	.skills-two{
 		font-size:1.3em;
 	}
