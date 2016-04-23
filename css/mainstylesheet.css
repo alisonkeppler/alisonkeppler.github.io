@@ -430,5 +430,18 @@ p{
 	}
 }
 
+@media (min-width: 500px) and (max-width: 990px){
+	.bio-one, 
+	.bio-two,
+	.bio-three,
+	.skills-two,
+	.skills-two{
+		font-size:1.3em;
+	}
+
+	.bio-four{
+		font-size:2em;
+	}
+}
 
 
