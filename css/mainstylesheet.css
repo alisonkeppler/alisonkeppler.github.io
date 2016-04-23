@@ -269,16 +269,19 @@ span.description{
 .bio-one{
 	top:20%;
 	font-size: .9em;
+	padding-right:30px;
 }
 
 .bio-two{
 	top:45%;
 	font-size:.9em;
+	padding-right:30px;
 }
 
 .bio-three{
 	top:70%;
 	font-size: .9em;
+	padding-right:30px;
 }
 
 .bio-four{
