@@ -194,6 +194,8 @@ p{
 /*	font-family: 'Asap', sans-serif;*/
 }
 
+
+
 .scroll{
 	padding-top:30px;
 	padding-bottom:30px;
@@ -244,6 +246,7 @@ hr{
 	border-style:inset;
 	border-width: 1px;
 	width:85%;
+	border-color:#64EAFB;
 }
 
 
@@ -252,7 +255,8 @@ hr{
 h4{
 	text-align: center;
 	margin: auto;
-	color:rgb(25, 63, 112);
+	color:#6F6D6D;
+
 /*	font-family: 'Asap', sans-serif;*/
 }
 
