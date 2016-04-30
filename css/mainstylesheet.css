@@ -383,11 +383,21 @@ p{
 	font-family: 'Neuton', serif;
 }
 
-.list-inline{
+/*.list-inline{
 	padding:10px 0;
+}*/
+
+.inline-list-two{
+	list-style: none;
+	padding-left:0;
 }
 
-.list-inline a{
+.inline{
+	display:inline-block;
+	padding:5px;
+}
+
+.inline a{
 	color:rgba(132, 241, 255, 0.99);
 }
 
