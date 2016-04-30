@@ -383,9 +383,9 @@ p{
 	font-family: 'Neuton', serif;
 }
 
-/*.list-inline{
+.list-inline{
 	padding:10px 0;
-}*/
+}
 
 .inline-list-two{
 	list-style: none;
@@ -406,8 +406,6 @@ p{
 	width:100%;
 	margin:0;
 }
-
-
 
 
 /*media queries*/
