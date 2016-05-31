@@ -57,7 +57,7 @@ div.nav.navbar-nav{
 
 .navbar-default .navbar-nav>ul>li>a:hover,
 .navbar-default .navbar-nav>ul>li>a:focus{
-	color:rgba(94, 2, 121, 0.93)
+	text-decoration:underline;
 }
 
 .navbar-nav ul li a{
@@ -104,7 +104,7 @@ h5{
 }
 
 span.intro{
-	color:#64EAFB;
+	color:white;
 }
 
 /*.landing{
@@ -145,7 +145,7 @@ h2{
 	padding-right: .3em;
 	padding-bottom:.2em;
 	font-family: 'Open Sans Condensed', sans-serif;
-	color:white;
+	color:#191818;
 }
 
 .fade-in {
@@ -281,26 +281,30 @@ section#about{
 
 .bio-one{
 	top:20%;
-	font-size: .9em;
+	font-size: .95em;
 	padding-right:30px;
 }
 
 .bio-two{
 	top:45%;
-	font-size:.9em;
+	font-size:.95em;
 	padding-right:30px;
 }
 
 .bio-three{
 	top:70%;
-	font-size: .9em;
+	font-size: .95em;
 	padding-right:30px;
 }
 
 .bio-four{
 	top:45%;
-	color:#64EAFB;
+	color:#191818;
 	padding-right:30px;
+}
+
+.bio-four:hover{
+	text-decoration: underline;
 }
 
 .skills-one{
