@@ -135,6 +135,9 @@ h2{
 .portfolio-text {
 	position: absolute;
 	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
 	transform: translateY(-50%);
 	width: 100%;
 	font-size:1.5em;
@@ -146,11 +149,20 @@ h2{
 
 .fade-in {
 	opacity: 0;
+	-webkit-transition: opacity .45s ease-in-out;
+	-moz-transition: opacity .45s ease-in-out;
+	-o-transition: opacity .45s ease-in-out;
+	transition: opacity .45s ease-in-out;
 }
 
 .fade-out {
 	opacity: .6;
+	-webkit-transition: opacity .45s ease-in-out;
+	-moz-transition: opacity .45s ease-in-out;
+	-o-transition: opacity .45s ease-in-out;
+	transition: opacity .45s ease-in-out;
 }
+
 
 .portfolio-text.fade-out{
 	opacity:1;
@@ -170,52 +182,42 @@ h2{
 
 #portfolio a:hover /*a:focus*/ .fade-in {
 	opacity: 1;
-	transition: .45s;
 }
 
 .portfolio-hover .fade-in{
 	opacity: 1;
-	transition: .45s;	
 }
 
 #portfolio a:hover /*a:focus*/ .fade-out {
 	opacity: 0;
-	transition: .45s;
 }
 
 .portfolio-hover .fade-out {
 	opacity: 0;
-	transition: .45s;
 }
 
 #portfolio span.no-link-hover:hover /*span.spantest:focus*/ .fade-in {
 	opacity: 1;
-	transition: .45s;
 }
 
 #portfolio span.no-link-hover:hover /*span.spantest:focus*/ .fade-out {
 	opacity: 0;
-	transition: .45s;
 }
 
 #about a:hover .fade-in {
 	opacity: 1;
-	transition: .45s;
 }
 
 #about a:hover .fade-out {
 	opacity: 0;
-	transition: .45s;
 }
 
 #about span.no-link-hover:hover .fade-in {
 	opacity: 1;
-	transition: .45s;
 }
 
 #about span.no-link-hover:hover .fade-out {
 	opacity: 0;
-	transition: .45s;
 }
 
 .projects{
