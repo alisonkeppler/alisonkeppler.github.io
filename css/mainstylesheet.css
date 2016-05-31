@@ -37,7 +37,7 @@ div.nav.navbar-nav{
 
 .top-left{
 	position:absolute;
-	top:10px;
+	top:5px;
 	left:10px;
 }
 
@@ -50,8 +50,9 @@ div.nav.navbar-nav{
 
 .navbar-default .navbar-nav>ul>li>a{
 	color:white;
-	font-family:'Neuton', serif;
+	font-family:'Merriweather', serif;
 	margin-top:10px;
+	font-size:11px;
 }
 
 .navbar-default .navbar-nav>ul>li>a:hover,
@@ -126,9 +127,9 @@ span.intro{
 }
 
 h2{
-	color:white;
+	color:#191818;
 	font-size:1.3em;
-	font-family: 'Neuton', serif;
+	font-family: 'Merriweather', serif;
 	font-weight:400;
 }
 
@@ -143,7 +144,7 @@ h2{
 	font-size:1.5em;
 	padding-right: .3em;
 	padding-bottom:.2em;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
 	color:white;
 }
 
@@ -222,7 +223,7 @@ h2{
 
 .projects{
 /*	padding:0 40px;*/
-	color:gray;
+	color:#191818;
 }
 
 p.portfolio-text.fade-in.center.projects{
@@ -232,7 +233,7 @@ p.portfolio-text.fade-in.center.projects{
 
 span.description{
 	font-weight:bold;
-	color:white;
+	color:#191818;
 	font-style:italic;
 }
 
@@ -269,6 +270,10 @@ span.description{
 
 
 /*about me boxes section*/
+
+section#about{
+	background-color:#E0DDDD;
+}
 
 #about{
 	padding-top:35px;
@@ -366,14 +371,18 @@ hr{
 }
 
 h4{
-	font-size:1em;
+	font-size:.8em;
 	font-family:'Arimo', sans-serif;
 	color:#656363;
 /*	font-weight: 700;*/
 }
 
 footer{
-	background-color: black;
+	background-color: #292929;
+}
+
+.contact{
+	color: white;
 }
 
 p{
@@ -381,12 +390,12 @@ p{
 }
 
 .cta{
-	color:#999494;
-	font-family: 'Neuton', serif;
+	color:white;
+	font-family: 'Merriweather', serif;
 }
 
 .list-inline{
-	padding:10px 0;
+	padding:15px 0;
 }
 
 .inline-list-two{
@@ -400,7 +409,7 @@ p{
 }
 
 .inline a{
-	color:rgba(132, 241, 255, 0.99);
+	color:white;
 }
 
 .row.ending{
