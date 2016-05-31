@@ -119,7 +119,7 @@ span.intro{
 
 
 #portfolio{
-	padding-top:35px;
+	padding:40px 0;
 }
 
 .no-padding{
@@ -276,7 +276,7 @@ section#about{
 }
 
 #about{
-	padding-top:35px;
+	padding:40px 0;
 }
 
 .bio-one{
@@ -383,6 +383,7 @@ h4{
 
 footer{
 	background-color: #292929;
+	padding:40px 0;
 }
 
 .contact{
