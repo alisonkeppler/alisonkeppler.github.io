@@ -64,9 +64,10 @@ div.nav.navbar-nav{
 
 .navbar-default .navbar-nav>ul>li>a{
 	color:#6F6D6D;
-	font-family:'Neuton', serif;
+	font-family:'Merriweather', serif;
 	margin-top:10px;
 	font-weight: 400;
+	font-size:11px;
 }
 
 .navbar-default .navbar-nav>ul>li>a:hover,
@@ -194,6 +195,10 @@ h1{
 	right:0;
 }
 
+p{
+	font-size:1.2em;
+	line-height:1.5;
+}
 
 /*Bio styles*/
 
@@ -208,6 +213,7 @@ p{
 	text-align: center;
 	margin:30px;
 	color:#6F6D6D;
+	font-family:'Open Sans Condensed', sans-serif;
 /*	font-family: 'Asap', sans-serif;*/
 }
 
@@ -291,6 +297,13 @@ h4{
 #contact{
 	padding-top:20px;
 	padding-bottom:30px;
+	font-style:italic;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#contact a{
+	color:#6F6D6D;
+	text-decoration: underline;
 }
 
 div.contact li{
