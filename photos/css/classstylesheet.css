@@ -145,7 +145,7 @@ header li{
 
 .hero{
 	width:100%;
-	height:550px;
+	height:620px;
 	background-image:url("../img/travel.jpeg");
 	background-size:cover;
 }
@@ -179,8 +179,7 @@ header li{
 h1{
 	font-size:4em;
 	color: white;
-	font-family: 'Lato', sans-serif;
-	font-weight: 700;
+	font-family: 'Open Sans', sans-serif;
 	padding-top:50px;
 }
 

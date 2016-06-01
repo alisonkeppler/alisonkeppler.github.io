@@ -119,7 +119,7 @@ div.nav.navbar-nav{
 
 .hero{
 	width:100%;
-	height:550px;
+	height:620px;
 	background-image:url("../img/movies.jpeg");
 	background-size:cover;
 }
@@ -130,7 +130,7 @@ h1{
 	line-height:550px;
 	font-size:9em;
 	color:white;
-	margin-top:0;
+	margin-top:50px;
 }
 
 
