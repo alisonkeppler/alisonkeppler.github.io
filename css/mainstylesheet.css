@@ -271,7 +271,27 @@ span.description{
 
 /*about me boxes section*/
 
+.about-text{
+	width:50%;
+}
+
+h6{
+	text-align:center;
+}
+
+.who-title{
+	padding-left:200px;
+}
+
+.who{
+	padding-top:50px;
+}
+
+
 section#about{
+/*	background-image:url("../img/stomp.jpg");
+	height:500px;
+	background-size:cover;*/
 	background-color:#E0DDDD;
 }
 
