@@ -271,6 +271,11 @@ h4{
 	width:45%;
 }
 
+#contact{
+	padding-top:20px;
+	padding-bottom:30px;
+}
+
 div.contact li{
 	display: inline-block;
 	padding:0 40px 0 40px;
