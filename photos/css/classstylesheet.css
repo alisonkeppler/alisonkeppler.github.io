@@ -42,6 +42,9 @@ h4{
 /* Nav Section */
 
 
+/*nav bar*/
+
+
 div.nav.navbar-nav{
 	position:absolute;
 	right:0;
@@ -66,7 +69,6 @@ div.nav.navbar-nav{
 	color:#6F6D6D;
 	font-family:'Merriweather', serif;
 	margin-top:10px;
-	font-weight: 400;
 	font-size:11px;
 }
 
@@ -95,51 +97,48 @@ div.nav.navbar-nav{
 	width:40px;
 }
 
-.height{
-	line-height:2.5em;
+
+/*.nav li a{
+	padding:0;
+}*/
+
+.intro{
+	padding-top:0;
 }
 
-/*a{
-	text-decoration: none;
-	color:green;
-	font-family:'Asap', sans-serif;
-
-}
-a:hover{
-	color:rgba(5, 177, 5, 0.3);
-}
-
-.alison{
-	padding: 0 0 0 10px;
-	font-family: 'Titillium Web', sans-serif;
-	font-weight:600;
-}
 
 header{
-	position:relative;
-	top:100px;
-	background: white;
-	width:90%;
+	position:fixed;
+	top:0;
+	padding:10px;
+	width:100%;
 	z-index: 1;
+	background:white;
+/*	font-family:'Arimo', sans-serif;*/
+/*	font-weight:700;*/
 }
-
 
 nav{
 	display:inline-block;
 	position:absolute;
 	right:0;
 	top:0;
-	margin:10px;
 }	
+
 header ul{
 	margin:0;
 	padding:0;
 }
+
 header li{
 	display:inline-block;
 	padding: 0 15px;
-}*/
+}
 
+a{
+	color:rgba(94, 2, 121, 0.93);
+	font-family:'Merriweather', serif;
+}
 
 /*Landing section*/
 
