@@ -148,6 +148,7 @@ header li{
 	height:620px;
 	background-image:url("../img/travel.jpeg");
 	background-size:cover;
+	margin-top:0px;
 }
 
 .hero h1{
@@ -156,7 +157,8 @@ header li{
 	line-height:550px;
 	font-size:9em;
 	color:white;
-	margin-top:0;
+	margin-top:0px;
+	padding-top:40px;
 }
 
 /*.intro{
@@ -261,12 +263,12 @@ div#gallery{
 
 hr{
 	display: block;
-	margin-top: 1em;
+	margin-top: 2em;
 	margin-bottom: 1em;
 	margin-left:auto;
 	margin-right: auto;
 	border-width: 1px;
-	width:85%;
+	width:75%;
 	border-color:#292929;
 }
 

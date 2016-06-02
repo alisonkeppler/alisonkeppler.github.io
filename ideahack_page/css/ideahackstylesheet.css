@@ -112,9 +112,10 @@ h2{
 
 .hero{
 	width:100%;
-	height:600px;
+	height:620px;
 	background-image:url("../img/family.jpeg");
 	background-size:cover;
+	margin-top:0px;
 }
 
 h1{
@@ -123,7 +124,8 @@ h1{
 	line-height:550px;
 	font-size:9em;
 	color:white;
-	margin-top:30px;
+	padding-top:40px;
+	margin-top:0;
 }
 
 
