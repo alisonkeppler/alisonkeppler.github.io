@@ -317,7 +317,8 @@ section#about{
 .bio-four{
 	top:50%;
 	color:#191818;
-	padding-right:30px;
+	padding-right:65px;
+	padding-left:45px;
 }
 
 /*.bio-four:hover{
