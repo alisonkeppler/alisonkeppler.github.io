@@ -279,7 +279,11 @@ a{
 }
 
 
-
+@media (max-width: 475px){
+	h1{
+	font-size:6em;
+}
+}
 
 
 

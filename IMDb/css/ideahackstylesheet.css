@@ -289,6 +289,12 @@ a{
 
 /*media queries*/
 
+@media (max-width: 475px){
+	h1{
+	font-size:6em;
+}
+}
+
 @media (max-width: 1200px){
 	.wireframe-vertical-center{
 	padding-top:0px;
@@ -312,9 +318,6 @@ a{
 	.mockup{
 		padding-top:10px;
 	}
-}
-
-
 }
 
 

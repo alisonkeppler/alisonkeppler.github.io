@@ -203,9 +203,17 @@ p{
 
 /*media queries*/
 
+@media (max-width: 475px){
+	h1{
+	font-size:5.5em;
+}
+}
+
 @media (max-width: 992px){
 	.padding-top{
 	padding-top:40px;
 }
 }
+
+
 
