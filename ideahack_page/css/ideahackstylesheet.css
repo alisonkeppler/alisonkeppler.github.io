@@ -265,6 +265,19 @@ a{
 	font-size:1em;
 }
 
+.mockup{
+	width:100%;
+	display:block;
+	margin-top:15px;
+}
+
+.mockup-small{
+	display:none;
+/*	width:75%;
+	text-align:center;*/
+}
+
+
 /*footer*/
 
 .footer{
@@ -308,6 +321,19 @@ a{
 	}
 }
 
+@media (max-width: 991px){
+	.mockup{
+		display:none;
+	}
+	.mockup-small{
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+		padding:20px 0;
+	}
+
+}
+
 @media (max-width: 990px){
 	.wireframe-vertical-center{
 	padding-top:0;
@@ -319,15 +345,10 @@ a{
 	.row{
 		padding-top:0;
 	}
-	.mockup{
-		padding-top:10px;
-	}
 }
 
 
 }
-
-
 
 
 
