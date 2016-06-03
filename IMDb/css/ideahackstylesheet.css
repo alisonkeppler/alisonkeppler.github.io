@@ -228,6 +228,17 @@ a{
 
 
 
+
+/*body*/
+
+.mockup-small{
+	display:none;
+/*	width:75%;
+	text-align:center;*/
+}
+
+
+
 /*body*/
 
 .ideahack{
@@ -304,7 +315,7 @@ a{
 	}
 }
 
-@media (max-width: 990px){
+@media (max-width: 991px){
 	.wireframe-vertical-center{
 	padding-top:0;
 }
@@ -315,12 +326,20 @@ a{
 	.row{
 		padding-top:0;
 	}
-	.mockup{
-		padding-top:10px;
-	}
 }
 
+@media (max-width: 991px){
+	.mockup{
+		display:none;
+	}
+	.mockup-small{
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+		padding:20px 0;
+	}
 
+}
 
 
 
