@@ -242,9 +242,9 @@ span.description{
 	top: 70%;
 	transform: translateY(-50%);
 	width: 100%;
-	font-size:1.2em;
-	padding-right: .5em;
-	font-family: 'Arimo', sans-serif;
+	font-size:1.3em;
+	padding-right:1.7em;
+	font-family: 'Open Sans Condensed', sans-serif;
 	color:#191818;
 	font-style: italic;
 }
