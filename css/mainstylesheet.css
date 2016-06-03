@@ -350,7 +350,7 @@ section#about{
 }*/
 
 p.portfolio-text.fade-out.center.about-titles{
-	font-size:4em;
+	font-size:6em;
 }
 
 /*columns section*/
@@ -437,6 +437,11 @@ p{
 	padding-top:0;
 	width:100%;
 	margin:0;
+}
+
+.portfolio-text,
+.soon{
+	width:97%;
 }
 
 
