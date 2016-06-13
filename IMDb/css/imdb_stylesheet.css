@@ -35,8 +35,7 @@ body{
 	padding-top:30px;
 }
 
-p,
-h5{
+p{
 	color:#7E7D7D;
 }
 
@@ -70,7 +69,8 @@ h4{
 }
 
 h4,
-p{
+p, 
+h5{
 	font-family:'Open Sans Condensed', sans-serif;
 }
 

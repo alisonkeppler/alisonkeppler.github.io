@@ -62,7 +62,8 @@ h4{
 }
 
 h4,
-p{
+p,
+h5{
 	font-family:'Open Sans Condensed', sans-serif;
 }
 
