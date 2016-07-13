@@ -224,7 +224,7 @@ h2{
 
 p.portfolio-text.fade-in.center.projects{
 	padding-right:65px;
-	padding-left:40px;
+	padding-left:65px;
 }
 
 span.description{
@@ -239,7 +239,7 @@ span.description{
 	transform: translateY(-50%);
 	width: 100%;
 	font-size:1.3em;
-	padding-right:1.7em;
+/*	padding-right:1.7em;*/
 	font-family: 'Open Sans Condensed', sans-serif;
 	color:#191818;
 	font-style: italic;
@@ -317,7 +317,7 @@ section#about{
 	top:50%;
 	color:#191818;
 	padding-right:65px;
-	padding-left:45px;
+	padding-left:75px;
 }
 
 /*.bio-four:hover{
@@ -376,6 +376,41 @@ img.displayed {
 .row{
 	padding-top:20px;
 }
+
+/*musings*/
+
+#musings{
+	background-color: #c9c0c0;
+	padding:40px 0;
+}
+
+.row.title-padding{
+	padding-left:15px;
+	padding-right:15px;
+}
+
+.title-box{
+/*	height:200px;*/
+	border:solid black 2px;
+/*	margin:0 15px;*/
+}
+
+.title-link{
+	font-family:'Open Sans Condensed', sans-serif;
+	font-size:1.8em;
+	padding-top:30px;
+	padding-bottom:30px;
+	padding-left:30px;
+	padding-right:30px;
+	text-decoration: none;
+}
+
+.title-box a{
+	color:#191818;
+	text-decoration: none;
+}
+
+
 
 /*footer*/
 
