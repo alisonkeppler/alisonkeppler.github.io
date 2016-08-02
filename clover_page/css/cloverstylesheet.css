@@ -201,6 +201,12 @@ a{
 
 /*body*/
 
+h4 a{
+	color:#6F6D6D;
+	font-family:'Open Sans Condensed', sans-serif;
+	text-decoration: underline;
+}
+
 .mockup-small{
 	display:none;
 	width:95%;
