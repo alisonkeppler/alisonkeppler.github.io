@@ -27,6 +27,7 @@ h4{
 
 .bold{
 	font-weight:700;
+	color:#757373;
 }
 
 .italic{
@@ -212,7 +213,7 @@ h4,
 p{
 	text-align: center;
 	margin:30px;
-	color:#6F6D6D;
+	color:#434343;
 	font-family:'Open Sans Condensed', sans-serif;
 /*	font-family: 'Asap', sans-serif;*/
 }
@@ -277,7 +278,7 @@ hr{
 h4{
 	text-align: center;
 	margin: auto;
-	color:#6F6D6D;
+	color:#434343;
 
 /*	font-family: 'Asap', sans-serif;*/
 }

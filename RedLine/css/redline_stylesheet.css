@@ -24,6 +24,10 @@ body{
 	font-weight:700;
 }
 
+.dark-grey{
+	color:#757373;
+}
+
 .subhead{
 	padding:20px 40px;
 }
@@ -33,7 +37,7 @@ body{
 }
 
 p{
-	color:#7E7D7D;
+	color:#434343;
 }
 
 p{
@@ -52,7 +56,7 @@ hr{
 }
 
 h4{
-	color:#7E7D7D;
+	color:#434343;
 	font-size:1.5em;
 	line-height: 1.3;
 }
