@@ -138,7 +138,7 @@ h2{
 	-o-transform: translateY(-50%);
 	transform: translateY(-50%);
 	width: 100%;
-	font-size:1.8em;
+	font-size:1.4em;
 	padding-bottom:.2em;
 	font-family: 'Open Sans Condensed', sans-serif;
 	color:#191818;
@@ -163,7 +163,7 @@ h2{
 
 .portfolio-text.fade-out{
 	opacity:1;
-	font-size: 7em;
+	font-size: 6em;
 	color:white;
 	font-family:'Fjalla One', sans-serif;
 }
